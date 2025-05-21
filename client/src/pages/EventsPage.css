@@ -1,0 +1,23 @@
+.page-container {
+  /* background-image: url('/public/images/rohit.png'); */
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  backdrop-filter: blur(6px);
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+}
